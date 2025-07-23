@@ -1,0 +1,45 @@
+ body {
+      margin: 0;
+      padding: 60px 20px;
+      background-color: #ffffff;
+      font-family: 'Tahoma', sans-serif;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+    }
+
+    h1 {
+      color: rgb(252, 241, 241);
+      font-size: 28px;
+      font-weight: normal;
+      text-align: center;
+      width: 80%;
+    }
+
+    
+
+    #titulo-principal {
+      color: #0004fd;
+     background-color: rgb(246, 250, 255) ;
+     text-align: center;
+    }
+
+    .titulo-secundario {
+      color: #444;
+      background-color: #fceeb1;
+      
+    }
+
+    p {
+      background-color: #fff8dc;
+      
+      padding: 20px;
+     
+      width: 75%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      font-size: 16px;
+      line-height: 1.8;
+    }

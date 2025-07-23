@@ -1,0 +1,30 @@
+
+ #div-margin {
+  background-color: #e75480;
+  margin: 20px auto;
+  padding: 25px;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+#div-padding {
+  background-color: #4682b4;
+  padding: 25px;
+  margin: 40px auto;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+#div-border {
+  background-color: #694113;
+  border: 6px solid #ff6600;
+  padding: 25px;
+  margin: 30px auto;
+  color: rgba(255, 255, 255, 0.959);
+  font-size: 18px;
+  
+}
+
+

@@ -1,0 +1,216 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  vertical-align: top;
+}
+
+
+#felicidad {
+  background-color: yellow;
+  border: 4px solid goldenrod;
+  padding: 30px;
+  margin: 20px auto;
+  font-size: 22px;
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px gold;
+}
+
+
+#tristeza {
+  background-color: lightblue;
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+  width: 120px;
+  height: 80px;
+  float: left;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+
+#enojo {
+  background-color: red;
+  border: 4px solid darkred;
+  padding: 15px;
+  margin: 10px;
+  font-size: 18px;
+  width: 220px;
+  height: 120px;
+  float: right;
+  border-radius: 0;
+  box-shadow: 0 0 10px darkred;
+}
+
+#miedo {
+  background-color: #4B0082;
+  border: 2px solid indigo;
+  padding: 10px;
+  margin: 40px auto 10px;
+  font-size: 13px;
+  width: 160px;
+  height: 90px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: inset 0 0 10px black;
+}
+
+
+#sorpresa {
+  background-color: #FFFACD;
+  border: 3px solid orange;
+  padding: 20px;
+  margin: 10px auto;
+  font-size: 18px;
+  width: 180px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px orange;
+  transform: scale(1.05);
+}
+
+
+#asco {
+  background-color: green;
+  border: 3px dashed darkgreen;
+  padding: 10px;
+  margin: 15px;
+  font-size: 14px;
+  width: 200px;
+  height: 100px;
+  border-radius: 3px;
+  transform: rotate(2deg);
+}
+
+
+#amor {
+  background-color: pink;
+  border: 2px solid violet;
+  padding: 25px;
+  margin: 20px auto;
+  font-size: 20px;
+  width: 280px;
+  height: 140px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px violet;
+}
+
+
+#ansiedad {
+  background-color: orange;
+  border: 2px solid brown;
+  padding: 8px;
+  margin: 5px 20px 15px 5px;
+  font-size: 13px;
+  width: 140px;
+  height: 90px;
+  float: left;
+  border-radius: 6px;
+  box-shadow: 0 0 5px brown;
+}
+
+
+#calma {
+  background-color: lightgreen;
+  border: 2px solid seagreen;
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 17px;
+  width: 260px;
+  height: 130px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px seagreen;
+}
+
+
+
+#confianza {
+  background-color: rgb(43, 223, 255);
+  border: 2px solid rgb(43, 70, 223);
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 17px;
+  width: 260px;
+  height: 130px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px seagreen;
+}
+
+.imagen-felicidad {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-amor {
+  width: 100%;
+  max-height: 200%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-miedo {
+  width: 100%;
+  max-height: 220%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-enojo {
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-sorpresa {
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-triste {
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-calma {
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-ansiedad {
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.imagen-confianza {
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}

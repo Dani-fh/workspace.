@@ -1,0 +1,21 @@
+
+ .contacto {
+      display: inline-block;
+      width: 25%;
+      margin: 10px;
+      padding: 10px;
+      background-color: #e7f712;
+    }
+
+    .titulo {
+      color: rgb(0, 0, 0);
+      padding: 4px;
+      background-color: rgba(255, 97, 24, 0.6);
+    }
+
+
+    div.titulo{
+      color: #1a73e8;
+      
+    }
+    
