@@ -1,0 +1,79 @@
+body {
+  background-image: url("img/selva.jpg");
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+    background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.navbar {
+  background-color: #111;
+  padding: 0.5rem 1rem;
+}
+
+.logo-img {
+  height: 45px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+form.d-flex input,
+form.d-flex .btn {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.carousel-container {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.carousel-inner img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.accordion {
+  padding: 1rem;
+  margin-top: 1rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-button {
+  background-color: #333;
+  color: #fffcfc;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #555;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
